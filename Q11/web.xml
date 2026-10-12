@@ -1,0 +1,26 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         version="5.0">
+
+    <servlet>
+        <servlet-name>SaveCookieServlet</servlet-name>
+        <servlet-class>SaveCookieServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SaveCookieServlet</servlet-name>
+        <url-pattern>/save</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReadCookieServlet</servlet-name>
+        <servlet-class>ReadCookieServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReadCookieServlet</servlet-name>
+        <url-pattern>/read</url-pattern>
+    </servlet-mapping>
+
+</web-app>
