@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <h2>Simple Shopping Cart</h2>
+
+    <form action="cart" method="post">
+        <label>Select Product:</label>
+
+        <select name="product">
+            <option value="Laptop">Laptop - Rs. 50000</option>
+            <option value="Mouse">Mouse - Rs. 500</option>
+            <option value="Keyboard">Keyboard - Rs. 1000</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit" name="action" value="add">
+            Add to Cart
+        </button>
+
+        <button type="submit" name="action" value="view">
+            View Cart
+        </button>
+
+        <button type="submit" name="action" value="clear">
+            Clear Cart
+        </button>
+    </form>
+</body>
+</html>
